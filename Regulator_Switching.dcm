@@ -588,6 +588,18 @@ K Adjustable 3A 52KHz Buck DC/DC
 F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
 $ENDCMP
 #
+$CMP HT7463A
+D 1.25MHz Asynchronous Step Down Converter
+K PWM step down buck converter asynchronous 
+F https://www.holtek.com/documents/10179/116711/HT7463A_Bv130.pdf
+$ENDCMP
+#
+$CMP HT7463B
+D 550kHz Asynchronous Step Down Converter
+K PWM step down buck converter asynchronous 
+F https://www.holtek.com/documents/10179/116711/HT7463A_Bv130.pdf
+$ENDCMP
+#
 $CMP ISL8117FRZ
 D Synchronous step-down PWM controller, 4.5v to 60v input, 0.6v to 54v Output Voltage, QFN-16
 K PWM step down buck converter controller synchronous POL
@@ -3244,6 +3256,12 @@ $CMP NCP1077STCT
 D High-Voltage Switcher for Low Power Offline SMPS, 700V Vds, 25W/15W, 230V/85-265V, 130kHz, 4.7Ohm Rds(on), 800mA Ipk, SOT-223
 K SMPS Converter
 F http://www.onsemi.com/pub/Collateral/NCP1070-D.PDF
+$ENDCMP
+#
+$CMP NCP1529A
+D 1.7MHz, 1A, High Efficiency, Low Ripple, Adjustable Output Voltage Step-down Converter, SOT-23-5
+K Step-Down Buck DC-DC Regulator Adjustable
+F https://www.onsemi.com/pub/Collateral/NCP1529-D.PDF
 $ENDCMP
 #
 $CMP NCV33063AVD
