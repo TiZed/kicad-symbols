@@ -192,6 +192,12 @@ K instrumentation opamp
 F http://www.ti.com/lit/ds/symlink/ina326.pdf
 $ENDCMP
 #
+$CMP INA826
+D Precision, 200-μA Supply Current, 3-V to 36-V Supply, Instrumentation Amplifier with Rail-to-Rail Output
+K instrumentation opamp
+F http://www.ti.com/lit/ds/symlink/ina826.pdf
+$ENDCMP
+#
 $CMP LTC1100xN8
 D Single Precision, Zero-Drift Instrumentation Amplifier, Gain = 100, DIP-8
 K single instrumentation amp
